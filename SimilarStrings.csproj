@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{63A8C25A-803A-4C89-AA5A-3FCB47A3390B}</ProjectGuid>
+    <RootNamespace>Interview</RootNamespace>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyTitle>SimilarStrings</AssemblyTitle>
+    <Product>SimilarStrings</Product>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.10.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+  </ItemGroup>
+</Project>
